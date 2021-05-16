@@ -103,16 +103,18 @@ def go_left():
 screen = turtle.Screen()
 screen.setup(w, h)
 screen.title("PySnek (Prototype)")
+# Edit this to change background color
 screen.bgcolor("#577BAD")
 screen.setup(500, 500)
 screen.tracer(0)
  
- 
+
 pen = turtle.Turtle("square")
 pen.penup()
  
  
 food = turtle.Turtle()
+# Edit this to change the shape size and color of the food
 food.shape("circle")
 food.color("#7D0A0C")
 food.shapesize(food_size / 20)
